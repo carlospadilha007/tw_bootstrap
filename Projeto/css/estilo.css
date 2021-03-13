@@ -1,0 +1,502 @@
+@charset "UTF-8";
+* {
+	margin: 0px;
+}
+
+.scrolling-active{
+    background-color: rgba(0, 0, 0, 0.8);
+	box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+	height: 100px;
+	transition: 0.5s;
+}
+
+.scrolling-active div.container a.navbar-brand img {
+	width: 300px;
+	height: 150px;
+	transition: 0.5s;
+}
+
+
+/*Barra de navegacao*/
+
+nav {
+	background-color: rgba(0, 0, 0, 0);
+	height: 125px;
+}
+
+nav div.container a.navbar-brand img {
+	width: 350px;
+	height: 200px;
+}
+
+nav div.container a.navbar-brand {
+	transition: 0.5s;
+}
+
+nav div.container a.navbar-brand:hover {
+	transform: scale(1.1);
+}
+
+#menu_principal {
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+#menu_principal li {
+    margin: 5px;
+    margin-right: 20px;
+}
+
+#menu_principal li#menu_login {
+    margin-left: 15px;
+    margin-right: 0px;
+}
+
+#menu_principal a{
+    color: white;
+	text-decoration: none;
+}
+
+#menu_principal a:hover{
+	border-bottom: 2px solid #9bf0e1;
+}
+
+#menu_principal li.dropdown ul.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#menu_principal li.dropdown ul.dropdown-menu li.dropdown-item {
+    width: 150px;
+    color: white;
+}
+
+#menu_principal li.dropdown ul.dropdown-menu li.dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #9bf0e1;
+}
+
+/* Rodape */
+
+footer {
+	background-color: rgba(0, 0, 0, 0.9);
+	width: 100%;
+	height: 400px;
+	box-sizing: border-box;
+	padding: 50px;
+	padding-top: 0px;
+
+}
+
+footer section#topo {
+	height: 50px;
+}
+
+footer section#conteudo {
+	padding-bottom: 25px;
+	padding-left: 150px;
+}
+
+footer section#conteudo ol {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	height: 100%;
+}
+
+footer section#conteudo ol li {
+	margin-right: 40px;
+}
+
+footer section#conteudo ol li h3 {
+	color: #919496;
+}
+
+footer section#conteudo ol li ol.itens {
+	list-style: none;
+	display: block;
+}
+
+footer section#conteudo ol li ol.itens li {
+	margin: 20px 0px;
+}
+
+footer section#conteudo ol li ol.itens li a {
+	color: white;
+	text-decoration: none;
+}
+
+footer section#conteudo ol li ol.itens li a:hover {
+	color: #9bf0e1;
+}
+
+footer section#conteudo ol li#rodape_logo {
+	margin-top: 100px;
+}
+
+footer section#conteudo ol li#rodape_social {
+	margin-top: 200px;
+}
+
+footer section#conteudo ol li#rodape_social ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+footer section#conteudo ol li#rodape_social ul li {
+	margin-right: 20px;
+}
+
+footer section#conteudo ol li#rodape_social ul li a img {
+	width: 50px;
+	height: 50px;
+	transition: all .3s;
+}
+
+footer section#conteudo ol li#rodape_social ul li a img:hover {
+	transform: scale(1.2);
+}
+
+footer section#fundo {
+	color: #919496;
+	text-align: center;
+	padding: 10px;
+}
+
+/* Cabecalho  */
+
+section.carousel {
+	margin-top: 0px;
+}
+
+div.carousel-caption {
+	margin-bottom: 50px;
+}
+
+/*  Sessões  */
+
+section.abertura {
+	height: 550px;
+	box-sizing: border-box;
+	padding: 50px;
+	
+	color: #333e48;
+	background-color: rgba(220, 220, 200, 0.3);
+}
+
+section.abertura2 {
+	background-color: white;
+}
+
+
+
+section.abertura section#conteudo {
+	display: flex;
+	justify-content: space-around;
+	box-sizing: border-box;
+	padding: 50px;
+}
+
+section.abertura section#conteudo div#texto{
+	margin-top: 75px;
+}
+
+section.abertura section#conteudo div#texto h3 {
+	text-align: center;
+	font-size: 1.5em;
+	color: #333e48;
+}
+
+section.abertura section#conteudo div#texto a input {
+	width: 200px;
+	height: 40px;
+	margin: 50px 125px;
+	border-radius: 15px;
+	background: linear-gradient(50deg, #0000ff, #00BFFF);
+	color: white;
+	border: none;
+}
+
+section.abertura section#conteudo div#texto a input:hover {
+	background: white;
+	border: 1px solid #00BFFF;
+	color: #00BFFF;
+}
+
+section.abertura section#conteudo div#video {
+	margin-top: 0px;
+}
+
+section.abertura section#conteudo div#video video {
+	width: 420px;
+	height: 350px;
+}
+
+/* dramaturgia */
+
+section#noticias {
+	width: 100%;
+	height: 700px;
+	box-sizing: border-box;
+	padding: 50px;
+	padding-top: 0px;
+	background-color: white;
+}
+
+section#noticias section#titulo {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+section#noticias section#fundo {
+	height: 50px;
+}
+
+section#noticias section#conteudo {
+	height: 450px;
+	display: flex;
+	justify-content: space-around;
+	box-sizing: border-box;
+	padding-top: 50px;
+	padding-bottom: 460px;
+}
+
+section#noticias section#conteudo div#caixa_01 {
+	width: 300px;
+	height: 300px;
+
+	background-image: url(../imagens/wesley_wins.jpg);
+	background-size: 300px 300px;
+	border-radius: 150px;
+	transition: 0.5s;
+}
+
+section#noticias section#conteudo div#caixa_01:hover {
+	transform: scale(1.1);
+}
+
+section#noticias section#conteudo div#caixa_01 div {
+	width: 200px;
+	height: 200px;
+	margin-top: 200px;
+	margin-left: 50px;
+	border-radius: 20px;
+	padding: 20px;
+
+	background-color: white;
+}
+
+section#noticias section#conteudo div#caixa_01 div h5 {
+	color: rgba(0, 0, 0, 0.8);
+	text-align: center;
+}
+
+section#noticias section#conteudo div#caixa_01 div input {
+	margin-top: 30px;
+	margin-left: 25px;
+}
+
+section#noticias section#conteudo div#caixa_02 {
+	width: 300px;
+	height: 300px;
+
+	background-image: url(../imagens/tata_steel.jpg);
+	background-size: 300px 300px;
+	border-radius: 150px;
+	transition: 0.5s;
+}
+
+section#noticias section#conteudo div#caixa_02:hover {
+	transform: scale(1.1);
+}
+
+section#noticias section#conteudo div#caixa_02 div {
+	width: 200px;
+	height: 200px;
+	margin-top: 200px;
+	margin-left: 50px;
+	border-radius: 20px;
+	padding: 20px;
+
+	background-color: white;
+}
+
+section#noticias section#conteudo div#caixa_02 div h5 {
+	color: rgba(0, 0, 0, 0.8);
+	text-align: center;
+}
+
+section#noticias section#conteudo div#caixa_02 div input {
+	margin-top: 40px;
+	margin-left: 25px;
+}
+
+section#noticias section#conteudo div#caixa_03 {
+	width: 300px;
+	height: 300px;
+
+	background-image: url(../imagens/copa_do_mundo.png);
+	background-size: 300px 300px;
+	border-radius: 150px;
+	transition: 0.5s;
+}
+
+section#noticias section#conteudo div#caixa_03:hover {
+	transform: scale(1.1);
+}
+
+section#noticias section#conteudo div#caixa_03 div {
+	width: 200px;
+	height: 200px;
+	margin-top: 200px;
+	margin-left: 50px;
+	border-radius: 20px;
+	padding: 20px;
+
+	background-color: white;
+}
+
+section#noticias section#conteudo div#caixa_03 div h5 {
+	color: rgba(0, 0, 0, 0.8);
+	text-align: center;
+}
+
+section#noticias section#conteudo div#caixa_03 div input {
+	margin-top: 30px;
+	margin-left: 25px;
+}
+
+/* dramaturgia */
+
+section#dramaturgia {
+	width: 100%;
+	height: 700px;
+	box-sizing: border-box;
+	padding: 50px;
+	padding-top: 0px;
+	background-color: white;
+}
+
+section#dramaturgia section#titulo {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+section#dramaturgia section#fundo {
+	height: 50px;
+}
+
+section#dramaturgia section#conteudo {
+	height: 450px;
+	display: flex;
+	justify-content: space-around;
+	box-sizing: border-box;
+	padding-top: 50px;
+	padding-bottom: 460px;
+}
+
+section#dramaturgia section#conteudo div#caixa_01 {
+	width: 400px;
+	height: 400px;
+
+	background-image: url(../imagens/gambito_da_rainha.jpg);
+	background-size: 400px 400px;
+	border-radius: 250px;
+	transition: 0.5s;
+}
+
+section#dramaturgia section#conteudo div#caixa_01:hover {
+	transform: scale(1.1);
+}
+
+section#dramaturgia section#conteudo div#caixa_01 div {
+	width: 200px;
+	height: 200px;
+	margin-top: 200px;
+	margin-left: 100px;
+	border-radius: 20px;
+	padding: 20px;
+
+	background-color: white;
+}
+
+section#dramaturgia section#conteudo div#caixa_01 div h5 {
+	color: rgba(0, 0, 0, 0.8);
+	text-align: center;
+}
+
+section#dramaturgia section#conteudo div#caixa_01 div input {
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+section#dramaturgia section#conteudo div#caixa_02 {
+	width: 400px;
+	height: 400px;
+
+	background-image: url(../imagens/bobby_contra_o_mundo.jpg);
+	background-size: 400px 400px;
+	border-radius: 250px;
+	transition: 0.5s;
+}
+
+section#dramaturgia section#conteudo div#caixa_02:hover {
+	transform: scale(1.1);
+}
+
+section#dramaturgia section#conteudo div#caixa_02 div {
+	width: 200px;
+	height: 200px;
+	margin-top: 200px;
+	margin-left: 100px;
+	border-radius: 20px;
+	padding: 20px;
+
+	background-color: white;
+}
+
+section#dramaturgia section#conteudo div#caixa_02 div h5 {
+	color: rgba(0, 0, 0, 0.8);
+	text-align: center;
+}
+
+section#dramaturgia section#conteudo div#caixa_02 div input {
+	margin-top: 40px;
+	margin-left: 50px;
+}
+
+section#dramaturgia section#conteudo div#caixa_03 {
+	width: 400px;
+	height: 400px;
+
+	background-image: url(../imagens/o_dono_do_jogo.jpeg);
+	background-size: 500px 500px;
+	border-radius: 250px;
+	transition: 0.5s;
+}
+
+section#dramaturgia section#conteudo div#caixa_03:hover {
+	transform: scale(1.1);
+}
+
+section#dramaturgia section#conteudo div#caixa_03 div {
+	width: 200px;
+	height: 200px;
+	margin-top: 200px;
+	margin-left: 100px;
+	border-radius: 20px;
+	padding: 20px;
+
+	background-color: white;
+}
+
+section#dramaturgia section#conteudo div#caixa_03 div h5 {
+	color: rgba(0, 0, 0, 0.8);
+	text-align: center;
+}
+
+section#dramaturgia section#conteudo div#caixa_03 div input {
+	margin-top: 30px;
+	margin-left: 50px;
+}
